@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Container>
+  <one foo="B">B</one>
+  <one foo="A">A</one>
+  <two foo="X" />
+  <two foo="Y" />
+  <one foo="E">E</one>
+  <one foo="D">D</one>
+  <one foo="C">
+    <level2 bar="2"/>
+    <level2 bar="1">
+      <x />
+    </level2>
+    <level2 bar="4"/>
+    <level2 bar="3"/>
+  </one>
+</Container>

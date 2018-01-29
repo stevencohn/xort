@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Container>
+  <one foo="A">A</one>
+  <one foo="B">B</one>
+  <one foo="C">
+    <level2 bar="1">
+      <x/>
+    </level2>
+    <level2 bar="2"/>
+    <level2 bar="3"/>
+    <level2 bar="4"/>
+  </one>
+  <one foo="D">D</one>
+  <one foo="E">E</one>
+</Container>
